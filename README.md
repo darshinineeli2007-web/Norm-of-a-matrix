@@ -46,5 +46,4 @@ print(f"{norminf:.2f}")
 <img width="443" height="156" alt="image" src="https://github.com/user-attachments/assets/c2a70664-0a61-4d2e-b656-8a3dfae6f8f7" />
 
 ## Result
-
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
