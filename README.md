@@ -14,58 +14,42 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Register No:212225230200
 # Developed By:Neeli darshini
 # 1-Norm of a Matrix
-
 import os
 os.environ['OPENBLAS_NUM_THREADS']="1"
 import numpy as np
 A=np.array(eval(input()))
 normal=np.linalg.norm(A,1)
 print(normal)
-
-
-
 # 2-Norm of a Matrix
-
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 A=np.array(eval(input()))
 norm2=np.linalg.norm(A,2)
 print(f"{norm2:.2f}")
-
-
-
 # Infinity Norm of a Matrix
-
 import os 
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 A=np.array(eval(input()))
 norminf=np.linalg.norm(A,np.inf)
 print(f"{norminf:.2f}")
-
-
-
 ```
 ## Output:
 ### 1-Norm of a Matrix
-<img width="852" height="347" alt="image" src="https://github.com/user-attachments/assets/3d9c2c81-ce4b-4124-8a4e-0c1ef961ccef" />
-
+<img width="438" height="153" alt="image" src="https://github.com/user-attachments/assets/0a1f0187-db97-4441-814d-ae396f301a42" />
 <br>
 <br>
 <br>
 
 ### 2-Norm of a Matrix
-<img width="1047" height="390" alt="image" src="https://github.com/user-attachments/assets/8de80454-b482-49a1-ae1b-03f84af22e93" />
-
+<img width="392" height="188" alt="image" src="https://github.com/user-attachments/assets/caeaed74-0138-4518-80ab-702b4a90176b" />
 <br>
 <br>
 <br>
 
 ### Infinity Norm of a Matrix
-<img width="982" height="341" alt="image" src="https://github.com/user-attachments/assets/021566b0-e620-41ea-be25-aed1a69d5304" />
-
-<br>
+<img width="443" height="156" alt="image" src="https://github.com/user-attachments/assets/c2a70664-0a61-4d2e-b656-8a3dfae6f8f7" />
 <br>
 <br>
 
