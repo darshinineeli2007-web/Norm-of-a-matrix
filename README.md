@@ -38,20 +38,12 @@ print(f"{norminf:.2f}")
 ## Output:
 ### 1-Norm of a Matrix
 <img width="438" height="153" alt="image" src="https://github.com/user-attachments/assets/0a1f0187-db97-4441-814d-ae396f301a42" />
-<br>
-<br>
-<br>
 
 ### 2-Norm of a Matrix
 <img width="392" height="188" alt="image" src="https://github.com/user-attachments/assets/caeaed74-0138-4518-80ab-702b4a90176b" />
-<br>
-<br>
-<br>
 
 ### Infinity Norm of a Matrix
 <img width="443" height="156" alt="image" src="https://github.com/user-attachments/assets/c2a70664-0a61-4d2e-b656-8a3dfae6f8f7" />
-<br>
-<br>
 
 ## Result
 
