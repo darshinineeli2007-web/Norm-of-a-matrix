@@ -21,8 +21,6 @@ import numpy as np
 A=np.array(eval(input()))
 normal=np.linalg.norm(A,1)
 print(normal)
-```
-```
 # 2-Norm of a Matrix
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -30,8 +28,6 @@ import numpy as np
 A=np.array(eval(input()))
 norm2=np.linalg.norm(A,2)
 print(f"{norm2:.2f}")
-```
-```
 # Infinity Norm of a Matrix
 import os 
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -41,7 +37,7 @@ norminf=np.linalg.norm(A,np.inf)
 print(f"{norminf:.2f}")
 ```
 ```
-## Output:
+### Output:
 ### 1-Norm of a Matrix
 <img width="438" height="153" alt="image" src="https://github.com/user-attachments/assets/0a1f0187-db97-4441-814d-ae396f301a42" />
 
